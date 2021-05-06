@@ -11,6 +11,6 @@ namespace LoginUserControl.Contract.DTO
         public Guid Id { get; set; }
         public DateTime DataFabricacao { get; set; }
 
-        public Model MyProperty { get; set; }
+        
     }
 }

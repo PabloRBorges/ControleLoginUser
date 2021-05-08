@@ -1,0 +1,11 @@
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\bin\Debug\net5.0\LoginUserControl.Simulador.deps.json
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\bin\Debug\net5.0\LoginUserControl.Simulador.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\bin\Debug\net5.0\ref\LoginUserControl.Simulador.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\bin\Debug\net5.0\LoginUserControl.Simulador.pdb
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\obj\Debug\net5.0\LoginUserControl.Simulador.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\obj\Debug\net5.0\LoginUserControl.Simulador.AssemblyInfoInputs.cache
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\obj\Debug\net5.0\LoginUserControl.Simulador.AssemblyInfo.cs
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\obj\Debug\net5.0\LoginUserControl.Simulador.csproj.CoreCompileInputs.cache
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\obj\Debug\net5.0\LoginUserControl.Simulador.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\obj\Debug\net5.0\ref\LoginUserControl.Simulador.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Simulador\obj\Debug\net5.0\LoginUserControl.Simulador.pdb

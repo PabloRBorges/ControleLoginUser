@@ -1,0 +1,12 @@
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\bin\Debug\net5.0\LoginUserControl.CrossCutting.deps.json
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\bin\Debug\net5.0\LoginUserControl.CrossCutting.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\bin\Debug\net5.0\ref\LoginUserControl.CrossCutting.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\bin\Debug\net5.0\LoginUserControl.CrossCutting.pdb
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.csprojAssemblyReference.cache
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.AssemblyInfoInputs.cache
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.AssemblyInfo.cs
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.csproj.CoreCompileInputs.cache
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\ref\LoginUserControl.CrossCutting.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.pdb

@@ -1,8 +1,6 @@
-﻿
-using LoginUserControl.Domain.Entities;
+﻿using LoginUserControl.Domain.Entities;
 using LoginUserControl.Domain.Interfaces;
 using LoginUserControl.Service.Validation;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 

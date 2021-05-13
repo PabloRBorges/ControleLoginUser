@@ -2,6 +2,7 @@ E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\bin\Debug\
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\bin\Debug\net5.0\LoginUserControl.Domain.dll
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\bin\Debug\net5.0\ref\LoginUserControl.Domain.dll
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\bin\Debug\net5.0\LoginUserControl.Domain.pdb
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\net5.0\LoginUserControl.Domain.csprojAssemblyReference.cache
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\net5.0\LoginUserControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\net5.0\LoginUserControl.Domain.AssemblyInfoInputs.cache
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\net5.0\LoginUserControl.Domain.AssemblyInfo.cs
@@ -9,4 +10,3 @@ E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\net5.0\LoginUserControl.Domain.dll
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\net5.0\ref\LoginUserControl.Domain.dll
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\net5.0\LoginUserControl.Domain.pdb
-E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Domain\obj\Debug\net5.0\LoginUserControl.Domain.csprojAssemblyReference.cache

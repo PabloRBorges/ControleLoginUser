@@ -31,6 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LoginUserControl.Data\LoginUserControl.Data.csproj" />
     <ProjectReference Include="..\LoginUserControl.Domain\LoginUserControl.Domain.csproj" />
     <ProjectReference Include="..\LoginUserControl.Service\LoginUserControl.Service.csproj" />
   </ItemGroup>
@@ -62,5 +63,7 @@
       </ResolvedFileToPublish>
     </ItemGroup>
   </Target>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

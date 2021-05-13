@@ -13,9 +13,9 @@ namespace LoginUserControl.Data.Repository
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : BaseEntity
     {
 
-        protected readonly SqlContext _sqlContext;
+        protected readonly ApplicationDbContext _sqlContext;
 
-        public BaseRepository(SqlContext sqlContext)
+        public BaseRepository(ApplicationDbContext sqlContext)
         {
             _sqlContext = sqlContext;
         }

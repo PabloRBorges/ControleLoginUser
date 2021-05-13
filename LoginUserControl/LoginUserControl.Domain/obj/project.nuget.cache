@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ek4PF74S2yveUbxBjDDfJiO6zNQt68cGwI6A74Z9E1evNZL9SM+o1dARv4CLV44agoaSJiTP1uzZa7W/Trip+w==",
+  "dgSpecHash": "SR9clNqw1CotY/9wWYf80Lb8RpyV/DUPzVk094dEguXCLTeWurNX3fUCUCe57Gi8FkJjOdLwZs9lrVd2BroEaA==",
   "success": true,
   "projectFilePath": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Pablo\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.1.0\\fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.1.0\\fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using LoginUserControl.Domain.Entities;
+using LoginUserControl.Core.Entities;
 
 namespace LoginUserControl.Service.Validation
 {

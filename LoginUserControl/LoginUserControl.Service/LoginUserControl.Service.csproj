@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LoginUserControl.Domain\LoginUserControl.Domain.csproj" />
+    <ProjectReference Include="..\LoginUserControl.Domain\LoginUserControl.Core.csproj" />
   </ItemGroup>
 
 </Project>

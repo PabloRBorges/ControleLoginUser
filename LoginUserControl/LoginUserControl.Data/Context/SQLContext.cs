@@ -1,24 +1,20 @@
-﻿using LoginUserControl.Data.Mapping;
-using LoginUserControl.Domain.Entities;
+﻿using LoginUserControl.Core.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
+using LoginUserControl.Core.Models;
+using Microsoft.Extensions.Options;
+using IdentityServer4.EntityFramework.Options;
 
 namespace LoginUserControl.Data.Context
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions options,IOptions<OperationalStoreOptions> operationalStoreOptions) :
+            base(options, operationalStoreOptions)
         {
-
         }
 
-        public DbSet<User> Users { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<User>(new UserMap().Configure);
-        }
 
         //private IDbConnection _dbConnection;
         //public DBContext(string connectionString)

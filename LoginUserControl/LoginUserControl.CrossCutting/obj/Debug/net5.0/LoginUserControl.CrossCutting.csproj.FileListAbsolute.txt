@@ -10,3 +10,6 @@ E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.dll
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\ref\LoginUserControl.CrossCutting.dll
 E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.pdb
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\obj\Debug\net5.0\LoginUserControl.CrossCutting.csproj.CopyComplete
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\bin\Debug\net5.0\LoginUserControl.Core.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.CrossCutting\bin\Debug\net5.0\LoginUserControl.Core.pdb

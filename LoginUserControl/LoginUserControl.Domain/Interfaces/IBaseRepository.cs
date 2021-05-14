@@ -1,8 +1,8 @@
-﻿using LoginUserControl.Domain.Entities;
+﻿using LoginUserControl.Core.Entities;
 using System;
 using System.Collections.Generic;
 
-namespace LoginUserControl.Domain.Interfaces
+namespace LoginUserControl.Core.Interfaces
 {
     public interface IBaseRepository<TEntity> where TEntity : BaseEntity
     {

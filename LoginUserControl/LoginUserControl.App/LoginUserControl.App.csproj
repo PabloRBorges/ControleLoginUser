@@ -13,6 +13,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="5.0.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.6">
       <PrivateAssets>all</PrivateAssets>
@@ -29,7 +31,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LoginUserControl.Data\LoginUserControl.Data.csproj" />
-    <ProjectReference Include="..\LoginUserControl.Domain\LoginUserControl.Domain.csproj" />
+    <ProjectReference Include="..\LoginUserControl.Domain\LoginUserControl.Core.csproj" />
     <ProjectReference Include="..\LoginUserControl.Service\LoginUserControl.Service.csproj" />
   </ItemGroup>
 

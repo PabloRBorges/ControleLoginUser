@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LoginUserControl.Domain.Entities
+namespace LoginUserControl.Core.Entities
 {
     public abstract class BaseEntity
     {

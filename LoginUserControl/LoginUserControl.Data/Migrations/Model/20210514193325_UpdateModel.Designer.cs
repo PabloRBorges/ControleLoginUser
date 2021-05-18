@@ -4,14 +4,16 @@ using LoginUserControl.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LoginUserControl.Data.Migrations.Model
 {
     [DbContext(typeof(ModelContext))]
-    partial class ModelContextModelSnapshot : ModelSnapshot
+    [Migration("20210514193325_UpdateModel")]
+    partial class UpdateModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -113,7 +115,7 @@ namespace LoginUserControl.Data.Migrations.Model
 
                     b.HasIndex("ClienteFK");
 
-                    b.ToTable("Contratos");
+                    b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("LoginUserControl.Core.Entities.DadoRecebido", b =>
@@ -169,7 +171,7 @@ namespace LoginUserControl.Data.Migrations.Model
 
                     b.HasIndex("ContratoId");
 
-                    b.ToTable("Placas");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("LoginUserControl.Core.Entities.Sensor", b =>

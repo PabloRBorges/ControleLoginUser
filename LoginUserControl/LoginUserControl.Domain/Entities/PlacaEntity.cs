@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LoginUserControl.Core.Entities
 {
@@ -9,7 +10,6 @@ namespace LoginUserControl.Core.Entities
         public DateTime DataFabricacao { get; set; }
         public string VersaoCodigo { get; set; }
         public bool EmUso { get; set; }
-        public bool IntegracaoAtiva { get; set; }
-
+        public bool BloqueioContrato { get; set; }
     }
 }

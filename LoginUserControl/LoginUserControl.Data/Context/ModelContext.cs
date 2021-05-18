@@ -1,5 +1,6 @@
 ﻿using LoginUserControl.Core.Entities;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace LoginUserControl.Data.Context
 {
@@ -16,7 +17,31 @@ namespace LoginUserControl.Data.Context
         public DbSet<Placa> Placas { get; set; }
         public DbSet<DadoRecebido> DadosRecebidos { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Contrato>()
+            .Property(b => b.Id)
+            .HasDefaultValueSql("(newid())");
 
+            modelBuilder.Entity<Bomba>()
+            .Property(b => b.Id)
+             .HasDefaultValueSql("(newid())");
 
+            modelBuilder.Entity<Cliente>()
+            .Property(b => b.Id)
+            .HasDefaultValueSql("(newid())");
+
+            modelBuilder.Entity<Placa>()
+            .Property(b => b.Id)
+            .HasDefaultValueSql("(newid())");
+
+            modelBuilder.Entity<DadoRecebido>()
+            .Property(b => b.Id)
+            .HasDefaultValueSql("(newid())");
+
+            modelBuilder.Entity<Sensor>()
+            .Property(b => b.Id)
+            .HasDefaultValueSql("(newid())");
+        }
     }
 }

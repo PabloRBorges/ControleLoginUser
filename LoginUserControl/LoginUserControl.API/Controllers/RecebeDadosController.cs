@@ -20,13 +20,22 @@ namespace LoginUserControl.API.Controllers
     [ApiController]
     public class RecebeDadosController : ControllerBase
     {
-        private readonly IBaseService<DadoRecebido> _baseService;
+        private readonly IBaseService<DadoRecebido> _baseDadoService;
+        private readonly IBaseService<Placa> _basePlacaService;
+        private readonly IBaseService<Contrato> _baseContratoService;
         private readonly ILogger<DadoRecebido> _logger;
+        private List<Placa> placasAtivas = new List<Placa>();
 
-        public RecebeDadosController(IBaseService<DadoRecebido> baseService, ILogger<DadoRecebido> logger)
+
+        public RecebeDadosController(ILogger<DadoRecebido> logger,
+                                     IBaseService<DadoRecebido> baseService,
+                                     IBaseService<Placa> basePlacaService,
+                                     IBaseService<Contrato> baseContratoService)
         {
-            _baseService = baseService;
+            _baseDadoService = baseService;
             _logger = logger;
+            _basePlacaService = basePlacaService;
+            _baseContratoService = baseContratoService;
         }
 
 
@@ -36,8 +45,14 @@ namespace LoginUserControl.API.Controllers
             if (dadorecebido == null)
                 return NotFound();
 
+            var placas = _basePlacaService.Get();
 
-            return Execute(() => _baseService.Add<DadoRecebidoValidator>(dadorecebido).Id);
+            if (placas.Where(x => x.Id == dadorecebido.IdPlaca ).Any())
+            {
+                return Execute(() => _baseDadoService.Add<DadoRecebidoValidator>(dadorecebido).Id);
+            }
+
+            return BadRequest("Placa sem autorização");
         }
 
         private IActionResult Execute(Func<object> func)

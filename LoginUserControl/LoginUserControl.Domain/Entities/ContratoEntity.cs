@@ -1,6 +1,7 @@
 ﻿using LoginUserControl.Core.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LoginUserControl.Core.Entities
 {
@@ -8,9 +9,9 @@ namespace LoginUserControl.Core.Entities
     {
         public DateTime Validade { get; set; }
         public string ValorContrato { get; set; }
-        public List<Bomba> Bombas { get; set; }
-        public List<Placa> Placas { get; set; }
-        public List<Sensor> Sensores { get; set; }
-        public TipoManutencao Manutencao { get; set; }
+        public ICollection<Bomba> Bombas { get; set; }
+        public ICollection<Placa> Placas { get; set; }
+        public ICollection<Sensor> Sensores { get; set; }
+
     }
 }

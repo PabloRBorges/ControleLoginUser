@@ -13,8 +13,7 @@ namespace LoginUserControl.Data.Context
             base(options, operationalStoreOptions)
         {
         }
-
-
+               
 
         //private IDbConnection _dbConnection;
         //public DBContext(string connectionString)

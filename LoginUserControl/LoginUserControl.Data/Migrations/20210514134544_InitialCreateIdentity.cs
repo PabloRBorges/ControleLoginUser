@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace LoginUserControl.Data.Migrations
 {
-    public partial class InitialCrea : Migration
+    public partial class InitialCreateIdentity : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

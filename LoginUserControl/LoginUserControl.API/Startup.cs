@@ -89,6 +89,12 @@ namespace LoginUserControl.API
             services.AddScoped<IBaseRepository<DadoRecebido>, BaseRepository<DadoRecebido>>();
             services.AddScoped<IBaseService<DadoRecebido>, BaseService<DadoRecebido>>();
 
+            services.AddScoped<IBaseRepository<Placa>, BaseRepository<Placa>>();
+            services.AddScoped<IBaseService<Placa>, BaseService<Placa>>();
+
+            services.AddScoped<IBaseRepository<Contrato>, BaseRepository<Contrato>>();
+            services.AddScoped<IBaseService<Contrato>, BaseService<Contrato>>();
+
             services.AddIdentityServer()
                 .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
 
@@ -102,6 +108,7 @@ namespace LoginUserControl.API
                 configuration.RootPath = "ClientApp/dist";
             });
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

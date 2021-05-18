@@ -23,7 +23,7 @@ namespace LoginUserControl.Data.Repository
         public void Delete(Guid id)
         {
             _sqlContext.Set<TEntity>().Remove(Select(id));
-            _sqlContext.SaveChanges();
+                        _sqlContext.SaveChanges();
         }
 
         public void Insert(TEntity obj)

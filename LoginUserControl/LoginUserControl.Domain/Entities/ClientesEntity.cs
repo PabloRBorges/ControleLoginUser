@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LoginUserControl.Core.Entities
 {
@@ -13,7 +14,8 @@ namespace LoginUserControl.Core.Entities
 		public string Cidade { get; set; }
 		public string Estado { get; set; }
 		public string LocalGPS { get; set; }
-        public List<Contrato> Contratos { get; set; }
+		[ForeignKey("ClienteFK")]
+		public ICollection<Contrato> Contratos { get; set; }
     }
 
 

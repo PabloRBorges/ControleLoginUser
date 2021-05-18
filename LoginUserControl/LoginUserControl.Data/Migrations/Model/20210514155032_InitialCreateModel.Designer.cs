@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LoginUserControl.Data.Migrations.Model
 {
     [DbContext(typeof(ModelContext))]
-    [Migration("20210514025606_InitialCreateModel")]
+    [Migration("20210514155032_InitialCreateModel")]
     partial class InitialCreateModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,9 +25,13 @@ namespace LoginUserControl.Data.Migrations.Model
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("(newid())");
 
                     b.Property<Guid?>("ContratoId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("Contrato_FK")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("DataFabricacao")
@@ -56,7 +60,8 @@ namespace LoginUserControl.Data.Migrations.Model
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("(newid())");
 
                     b.Property<string>("Bairro")
                         .HasColumnType("nvarchar(max)");
@@ -94,13 +99,11 @@ namespace LoginUserControl.Data.Migrations.Model
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("(newid())");
 
-                    b.Property<Guid?>("ClienteId")
+                    b.Property<Guid?>("ClienteFK")
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("Manutencao")
-                        .HasColumnType("int");
 
                     b.Property<DateTime>("Validade")
                         .HasColumnType("datetime2");
@@ -110,7 +113,7 @@ namespace LoginUserControl.Data.Migrations.Model
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClienteId");
+                    b.HasIndex("ClienteFK");
 
                     b.ToTable("Contratos");
                 });
@@ -119,7 +122,8 @@ namespace LoginUserControl.Data.Migrations.Model
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("(newid())");
 
                     b.Property<string>("DadosJson")
                         .HasColumnType("nvarchar(max)");
@@ -139,19 +143,14 @@ namespace LoginUserControl.Data.Migrations.Model
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("(newid())");
 
                     b.Property<Guid?>("ContratoId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("DataFabricacao")
                         .HasColumnType("datetime2");
-
-                    b.Property<bool>("EmUso")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IntegracaoAtiva")
-                        .HasColumnType("bit");
 
                     b.Property<string>("MacAdress")
                         .HasColumnType("nvarchar(max)");
@@ -173,7 +172,8 @@ namespace LoginUserControl.Data.Migrations.Model
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uniqueidentifier")
+                        .HasDefaultValueSql("(newid())");
 
                     b.Property<Guid?>("ContratoId")
                         .HasColumnType("uniqueidentifier");
@@ -211,7 +211,7 @@ namespace LoginUserControl.Data.Migrations.Model
                 {
                     b.HasOne("LoginUserControl.Core.Entities.Cliente", null)
                         .WithMany("Contratos")
-                        .HasForeignKey("ClienteId");
+                        .HasForeignKey("ClienteFK");
                 });
 
             modelBuilder.Entity("LoginUserControl.Core.Entities.Placa", b =>

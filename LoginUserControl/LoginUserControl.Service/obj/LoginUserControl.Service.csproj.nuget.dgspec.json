@@ -4,12 +4,12 @@
     "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Service\\LoginUserControl.Service.csproj": {}
   },
   "projects": {
-    "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Domain.csproj": {
+    "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Domain.csproj",
-        "projectName": "LoginUserControl.Domain",
-        "projectPath": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Domain.csproj",
+        "projectUniqueName": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Core.csproj",
+        "projectName": "LoginUserControl.Core",
+        "projectPath": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Core.csproj",
         "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
         "outputPath": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -44,9 +44,13 @@
               "target": "Package",
               "version": "[10.1.0, )"
             },
-            "FluentValidation.AspNetCore": {
+            "Microsoft.AspNetCore.Identity": {
               "target": "Package",
-              "version": "[10.1.0, )"
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
             }
           },
           "imports": [
@@ -92,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Domain.csproj": {
-                "projectPath": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Domain.csproj"
+              "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Core.csproj": {
+                "projectPath": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Core.csproj"
               }
             }
           }

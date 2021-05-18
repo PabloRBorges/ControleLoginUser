@@ -1,4 +1,4 @@
-﻿namespace LoginUserControl.Domain.Entities
+﻿namespace LoginUserControl.Core.Entities
 {
     public class User : BaseEntity
     {

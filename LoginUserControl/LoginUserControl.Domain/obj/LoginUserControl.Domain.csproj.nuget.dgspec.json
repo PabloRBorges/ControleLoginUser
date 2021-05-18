@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Domain.csproj",
-        "projectName": "LoginUserControl.Domain",
+        "projectName": "LoginUserControl.Core",
         "projectPath": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\LoginUserControl.Domain.csproj",
         "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
         "outputPath": "E:\\Projetos\\LoginUserControl\\LoginUserControl\\LoginUserControl.Domain\\obj\\",

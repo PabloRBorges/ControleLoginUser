@@ -1,12 +1,14 @@
-﻿using LoginUserControl.Domain.Entities;
-using LoginUserControl.Domain.Interfaces;
+﻿using LoginUserControl.Core.Entities;
+using LoginUserControl.Core.Interfaces;
 using LoginUserControl.Service.Validation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
-namespace LoginUserControl.Controllers
+namespace LoginUserControl.App.Controllers
 {
-    [Route("api/[controller]")]
+    [Authorize]
+    [Route("[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -51,6 +53,7 @@ namespace LoginUserControl.Controllers
         }
 
         [HttpGet]
+        [Route("get")]
         public IActionResult Get()
         {
             return Execute(() => _baseUserService.Get());

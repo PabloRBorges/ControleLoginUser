@@ -1,7 +1,7 @@
 using LoginUserControl.Data.Context;
 using LoginUserControl.Data.Repository;
-using LoginUserControl.Domain.Entities;
-using LoginUserControl.Domain.Interfaces;
+using LoginUserControl.Core.Entities;
+using LoginUserControl.Core.Interfaces;
 using LoginUserControl.Service.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

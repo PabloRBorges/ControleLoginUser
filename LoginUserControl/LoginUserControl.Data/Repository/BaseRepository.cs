@@ -1,6 +1,6 @@
 ﻿using LoginUserControl.Data.Context;
-using LoginUserControl.Domain.Entities;
-using LoginUserControl.Domain.Interfaces;
+using LoginUserControl.Core.Entities;
+using LoginUserControl.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -13,9 +13,9 @@ namespace LoginUserControl.Data.Repository
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : BaseEntity
     {
 
-        protected readonly ApplicationDbContext _sqlContext;
+        protected readonly ModelContext _sqlContext;
 
-        public BaseRepository(ApplicationDbContext sqlContext)
+        public BaseRepository(ModelContext sqlContext)
         {
             _sqlContext = sqlContext;
         }
@@ -23,11 +23,13 @@ namespace LoginUserControl.Data.Repository
         public void Delete(Guid id)
         {
             _sqlContext.Set<TEntity>().Remove(Select(id));
+                        _sqlContext.SaveChanges();
         }
 
         public void Insert(TEntity obj)
         {
             _sqlContext.Set<TEntity>().Add(obj);
+            _sqlContext.SaveChanges();
         }
 
         public IList<TEntity> Select() => _sqlContext.Set<TEntity>().ToList();

@@ -1,0 +1,15 @@
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\bin\Release\net5.0\LoginUserControl.Service.deps.json
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\bin\Release\net5.0\LoginUserControl.Service.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\bin\Release\net5.0\ref\LoginUserControl.Service.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\bin\Release\net5.0\LoginUserControl.Service.pdb
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\bin\Release\net5.0\LoginUserControl.Core.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\bin\Release\net5.0\LoginUserControl.Core.pdb
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\LoginUserControl.Service.csprojAssemblyReference.cache
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\LoginUserControl.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\LoginUserControl.Service.AssemblyInfoInputs.cache
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\LoginUserControl.Service.AssemblyInfo.cs
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\LoginUserControl.Service.csproj.CoreCompileInputs.cache
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\LoginUserControl.Service.csproj.CopyComplete
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\LoginUserControl.Service.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\ref\LoginUserControl.Service.dll
+E:\Projetos\LoginUserControl\LoginUserControl\LoginUserControl.Service\obj\Release\net5.0\LoginUserControl.Service.pdb
